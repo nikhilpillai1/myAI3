@@ -22,6 +22,7 @@ import { UIMessage } from "ai";
 import { useEffect, useState, useRef } from "react";
 import { AI_NAME, CLEAR_CHAT_TEXT, WELCOME_MESSAGE } from "@/config";
 import Image from "next/image";
+import Link from "next/link";
 
 const formSchema = z.object({
   message: z
@@ -241,7 +242,7 @@ export default function Chat() {
           </div>
         </div>
         <div className="w-full px-5 py-1 items-center flex justify-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Daniel M. Ringel
+          © {new Date().getFullYear()} Daniel M. Ringel <Link href="/terms" className="underline">Terms of Use</Link>
         </div>
       </main>
     </div >
