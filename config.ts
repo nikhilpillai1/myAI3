@@ -31,4 +31,4 @@ export const CLEAR_CHAT_TEXT = "New";
 export const MODERATION_DENIAL_MESSAGE = "Your message violates our guidelines, I can not answer that";
 
 export const PINECONE_TOP_K = 40;
-export const PINECONE_INDEX_NAME = "myai3";
+export const PINECONE_INDEX_NAME = "my-ai";
